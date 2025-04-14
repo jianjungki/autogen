@@ -1,5 +1,4 @@
-name: Docker Image CI
-
+name: AutoGen Studio Docker
 on:
   push:
     branches: [ "main" ]
