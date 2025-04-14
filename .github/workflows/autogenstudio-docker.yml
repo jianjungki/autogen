@@ -23,6 +23,5 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: python/packages/autogen-studio
-          platforms: linux/arm64
           push: true
           tags: jianjungki/autogenstudio:latest
